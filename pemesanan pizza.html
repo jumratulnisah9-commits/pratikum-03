@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Black Goose Bistro | Pizza-on-Demand</title>
+</head>
+<body style="font-family: Arial; margin: 30px;">
+  <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+  <form action="pizza_thanks.html" method="get">
+    <fieldset style="width: 400px;">
+      <legend>Your Information</legend>
+      <label>Name:</label><br>
+      <input type="text" name="name" required><br><br>
+
+      <label>Address:</label><br>
+      <textarea name="address" rows="2" cols="30"></textarea><br><br>
+
+      <label>Telephone Number:</label><br>
+      <input type="tel" name="phone"><br><br>
+
+      <label>Delivery Instructions:</label><br>
+      <textarea name="instructions" rows="3" cols="30"></textarea>
+    </fieldset><br>
+
+    <fieldset style="width: 400px;">
+      <legend>Design Your Dream Pizza</legend>
+      <p>Choose Size:</p>
+      <input type="radio" name="size" value="Small">Small
+      <input type="radio" name="size" value="Medium">Medium
+      <input type="radio" name="size" value="Large">Large<br><br>
+
+      <p>Choose Toppings:</p>
+      <input type="checkbox" name="topping" value="Cheese">Cheese
+      <input type="checkbox" name="topping" value="Mushroom">Mushroom
+      <input type="checkbox" name="topping" value="Pepperoni">Pepperoni
+    </fieldset><br>
+
+    <input type="submit" value="Bring me a pizza!" style="padding: 5px 10px;">
+  </form>
+</body>
+</html>
